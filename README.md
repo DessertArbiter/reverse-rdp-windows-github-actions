@@ -13,7 +13,7 @@ https://www.appveyor.com/docs/how-to/rdp-to-build-worker/
 1. Assume Windows Runners cannot listen to ports. I didn't bother trying and ngrok worked anyway. So, signup for an [ngrok] account.
 2. Get the tunnel auth token at: https://dashboard.ngrok.com/auth .
 3. Under the repository's settings, make a secret called `NGROK_AUTH_TOKEN` and set it to the tunnel auth token from ngrok.
-4. Trigger a build somehow. Maybe make a spurious commit or edit and commit the README or something.
+4. Trigger a build somehow. Maybe make a spurious commit or edit and commit the README or something. bruh
 5. Wait until the last step which will hang forever as it connects to ngrok and sets up the reverse tunnel.
 6. Visit ngrok's dashboard. https://dashboard.ngrok.com/
 7. Note the active tunnel's public host and port.
